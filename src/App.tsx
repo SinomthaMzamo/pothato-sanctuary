@@ -1090,7 +1090,7 @@ const App: React.FC = () => {
       <div className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-lg mx-auto px-4 py-3 flex justify-between items-center">
           <h1 className="text-xl font-light text-gray-800">
-            Your Sanctuary 🌿
+            {userData?.name}'s Sanctuary 🌿
           </h1>
           <div className="flex gap-2">
             {currentView !== "quick-support" && (

@@ -6,9 +6,9 @@ import {
   Home,
   Settings,
   PenTool,
-  Sun,
-  Moon,
-  Cloud,
+  // Sun,
+  // Moon,
+  // Cloud,
   Sparkles,
 } from "lucide-react";
 
@@ -357,12 +357,12 @@ const App: React.FC = () => {
   // Heart Space Component
   const HeartSpace = () => {
     const [currentAffirmation, setCurrentAffirmation] = useState(0);
-    const [selectedExercise, setSelectedExercise] = useState<
-      (typeof breathingExercises)[0] | null
-    >(null);
+    // const [selectedExercise, setSelectedExercise] = useState<
+    //   (typeof breathingExercises)[0] | null
+    // >(null);
 
     const startBreathing = (exercise: (typeof breathingExercises)[0]) => {
-      setSelectedExercise(exercise);
+      // setSelectedExercise(exercise);
       setIsBreathing(true);
 
       // Breathing cycle
